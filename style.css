@@ -7,7 +7,7 @@ html,body{
 	padding: 0;
 }
 
-p,div,a,input,textarea,span{
+h1,h2,h3,p,div,a,input,textarea,span{
 	font-family: 'Jost';
 }
 a{
@@ -196,6 +196,35 @@ nav ul li a{
 nav ul li a.events_icon{
 	background:url('img/events_icon.svg') no-repeat 100% 50%;
 	padding-right:28px;
+}
+main{
+	margin-top: 22px;
+}
+.breadcrumbs{
+	margin-bottom: 20px;
+}
+.breadcrumbs a,
+.breadcrumbs span
+{
+	font-size: 12px;
+	line-height: 17px;
+}
+.breadcrumbs a.home{
+	background:url('img/breadcrumb_main.svg') no-repeat;
+	padding-left: 20px;
+}
+.entertainment__list{
+	 
+}
+.page__caption{
+	background:blue;
+}
+h1{
+	color:#fff;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 35px;
+	line-height: 60px;
 }
 .footer__mess-icons-whats,
 .footer__mess-icons-viber,
