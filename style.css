@@ -255,6 +255,10 @@ main{
 	grid-column: 2 / 4;
 	grid-row:2
 }
+.entertainment__list-item:nth-child(3) .entertainment__list-item-title{
+	max-width: 100px;
+    
+}
 .entertainment__list-item:first-child .entertainment__list-item-title{
 	font-size: 36px;
     line-height: 140%;
@@ -270,6 +274,7 @@ main{
 	font-size: 21px;
 	font-weight: 600;
     text-transform: uppercase;
+	line-height: 120%;
 }
 .entertainment__list-item:after{
 	content: "";
@@ -293,6 +298,49 @@ main{
     border-right: 64px solid transparent;
     border-bottom: 228px solid #0468FF;
 	border-top:0
+}
+.entertainment__list-catalog-link{
+	position: absolute;
+    padding: 15px 28px 15px;
+    bottom: 11%;
+    left: 6%;
+    background: #fff;
+    z-index: 3;
+    border-radius: 12px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+}
+.entertainment__list-detail-link{
+	position: absolute;
+	padding-right: 20px;
+	background:url('img/entertainment__list-arrow-right.svg') no-repeat 100% 50%;
+	z-index:3;
+	bottom:10%;
+	left:8%;
+	color:#fff;
+	font-size: 16px;
+	line-height: 26px;
+}
+.advantages{
+	margin-top: 55px;
+	margin-bottom: 55px;
+    height: 104px;
+    display: flex;
+    background: #F4F5F6;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0px 0 107px;
+	border-radius: 20px;
+}
+.advantages__item{
+	background-repeat: no-repeat;
+    width: 25%;
+    padding-top: 10px;
+    padding-left: 65px;
+    padding-right: 92px;
+    height: 50%;
+	background-position-y: 50%;
 }
 .page__caption{
 	background:blue;
