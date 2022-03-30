@@ -466,6 +466,97 @@ main{
 .with__us-how.with__us-blocks-item{
 	padding-left: 35px;
 }
+.index__socials-block{
+	margin-top: 88px;
+}
+.index__socials-descr{
+	margin: 15px auto;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    color: #777777;
+    max-width: 66%;
+}
+.index__socials-items{
+	display: flex;
+    justify-content: space-between;
+    max-width: 938px;
+    margin: 0 auto;
+}
+.index__socials-item{
+	width: 132px;
+	margin-top: 6.3%;
+	text-align: center;
+	display: block;
+}
+.index__socials-pic{
+	width: 132px;
+	height: 132px;
+	display: inline-block;
+	background-color: #F4F5F6;;
+	background-repeat:no-repeat;
+	background-position: 50% 50%;
+	border-radius: 22px;
+}
+.index__socials-text{
+	font-size: 24px;
+    line-height: 48px;
+    text-align: center;
+    color: #1A1C23;
+    margin-top: 23px;
+    display: inline-block;
+}
+.index__em-text{
+	margin-top: 90px;
+}
+.index__em-text-desc{
+	margin-top: 39px;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 35px;
+	text-align: center;
+}
+.index__em-types-descr{
+	margin-top: 23px;
+	text-align: center;
+}
+
+.msize-text{
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 35px;
+}
+.index__benefits{
+	margin-top: 113px;
+	margin-bottom: 70px;
+}
+.index__benefits-descr{
+	margin-top: 25px;
+	text-align: center;
+}
+.index__em-types{
+	margin-top: 45px;
+}
+.index__em-list{
+	margin-top: 65px;
+}
+.index__em-list ul{
+    max-width: 1240px;
+    margin: 0 auto;
+	list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.index__em-list ul li{
+	width: 47%;
+	padding-left: 30px;
+    background: url(img/CheckCircle.svg) no-repeat;
+    margin-top: 10px;
+    line-height: 26px;
+}
+
+
 .page__caption{
 	background:blue;
 }
