@@ -10,6 +10,13 @@ html,body{
 h1,h2,h3,p,div,a,input,textarea,span{
 	font-family: 'Jost';
 }
+h2{
+	text-align: center;
+	font-size: 36px;
+	line-height: 48px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
 a{
 	text-decoration: none;
 }
@@ -221,6 +228,7 @@ main{
     grid-column-gap: 34px;
     display: grid;
 }
+
 .entertainment__list-item:first-child .entertainment__list-text-area{
     margin-top: 36px;
     margin-left: 60px;
@@ -300,10 +308,12 @@ main{
 	border-top:0
 }
 .entertainment__list-catalog-link{
-	position: absolute;
-    padding: 15px 28px 15px;
-    bottom: 11%;
+	bottom: 11%;
     left: 6%;
+	position: absolute;
+}
+.button-light{
+    padding: 15px 28px 15px;
     background: #fff;
     z-index: 3;
     border-radius: 12px;
@@ -341,6 +351,108 @@ main{
     padding-right: 92px;
     height: 50%;
 	background-position-y: 50%;
+}
+.profitable__offer{
+	background: radial-gradient(76.7% 707.77% at 23.3% 72.57%, #0468FF 0%, #0049B8 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+	border-radius: 22px;
+	height: 421px;
+	position: relative;
+	overflow: hidden;
+}
+.profitable__offer:after{
+	content:"";
+	position: absolute;
+	width: 682px;
+	height: 385px;
+	bottom:0;
+	background: url('img/child.png') no-repeat;
+}
+.profitable__offer-text-area{
+	width: 44%;
+	height:100%;
+	color:#fff;
+	margin-left:auto;
+	align-items: center;
+	display:flex;
+	flex-wrap: wrap;
+}
+.profitable__offer-text-area > div{
+	margin-top: 15px;
+}
+.profitable__offer-tag{
+	background: #FF1820;
+	border: 1px solid #AB0F56;
+	box-sizing: border-box;
+	border-radius: 6px;
+	display:inline-block;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	padding: 2px 13px;
+}
+.profitable__offer-title{
+	font-weight: 600;
+	font-size: 35px;
+	line-height: 51px;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+	margin-top: 10px;
+}
+.profitable__offer-text{
+	line-height: 155%;
+}
+.profitable__offer-button{
+    margin-top: 36px;
+	padding: 10px 24px;
+    font-size: 16px;
+    display: inline-block;
+}
+.with__us{
+	margin-top: 90px;
+	
+}
+.with__us-blocks{
+	margin-top: 72px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.with__us-blocks-item{
+	width: 49%;
+    margin-bottom: 12px;
+    padding-top: 24px;
+    padding-left: 145px;
+	padding-right: 30px;
+    padding-bottom: 25px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-color: #F4F5F6;
+    border-radius: 22px;
+    background-position: 6% 45%;
+}
+.with__us-blocks-title{
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 600;
+	margin-bottom: 8px;
+}
+.with__us-blocks-descr{
+	font-size: 14px;
+	line-height: 20px;
+}
+.with__us-how{
+	display: flex;
+	align-items: center;
+	color:#fff;
+	background-color: #0468FF;
+}
+.with__us-how .with__us-blocks-title{
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 32px;
+}
+.with__us-how.with__us-blocks-item{
+	padding-left: 35px;
 }
 .page__caption{
 	background:blue;
