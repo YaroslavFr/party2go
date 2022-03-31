@@ -851,6 +851,7 @@ footer {
 }
 
 .category__slider-txt {
+
     margin-left: 23px;
     padding: 10px;
     bottom: 30px;
@@ -866,3 +867,8 @@ footer {
     border-radius: 30px;
 }
 
+.category__slider-txt span {
+	display: block;
+	max-width: 144px;
+
+}
