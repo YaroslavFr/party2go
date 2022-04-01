@@ -1176,12 +1176,14 @@ figure {
 	background: #F4F7FB;
 	border-radius: 22px;
 }
+
 .question-block input {
-    margin-bottom: 20px;
-    width: 211px;
-    height: 53px;
-   padding: 0;
+	margin-bottom: 20px;
+	width: 211px;
+	height: 53px;
+	padding: 0;
 }
+
 .question-block-txt1 {
 	padding-left: 82px;
 	font-weight: 600;
@@ -1199,45 +1201,233 @@ figure {
 	font-size: 16px;
 	color: #282739;
 }
-.question-block-form {padding-left: 82px;}
+
+.question-block-form {
+	padding-left: 82px;
+}
+
 .consult-txt__personal {
 	align-items: stretch;
 	padding-top: 23px;
 	display: flex;
 	padding-left: 82px;
 }
+
 .question-block input[type="checkbox"] {
-    width: 16px;
-    height: 16px;
-    margin-right: 12px;
-    
-    border-radius: 5;
+	width: 16px;
+	height: 16px;
+	margin-right: 12px;
+
+	border-radius: 5;
 }
+
 .question-block button {
 	margin-left: 20px;
 	padding: 20px 25px;
-	cursor:pointer;
-    -webkit-appearance: none;
-    border: 0;
-    outline: none;
+	cursor: pointer;
+	-webkit-appearance: none;
+	border: 0;
+	outline: none;
 	background: #0468FF;
-border-radius: 5px;
-    color: #fff;
-   
+	border-radius: 5px;
+	color: #fff;
+
 	font-weight: 400;
 	font-size: 16px;
 }
+
 .consult-txt__personal p {
 	max-width: 307px;
 	line-height: 12px;
 	font-weight: 400;
-font-size: 12px;
+	font-size: 12px;
 }
+
 input[type=text]::placeholder {
 	font-size: 14px;
-padding-left: 10px;
+	padding-left: 10px;
 }
+
 input[type="text"] {
 	font-size: 14px;
-    padding-left: 28px;
- }
+	padding-left: 28px;
+}
+
+.sotr__block {
+	padding-top: 30px;
+}
+
+.sotr__block-txt {
+	font-size: 24px;
+	line-height: 26px;
+}
+
+.pb41 {
+	padding-bottom: 41px;
+}
+
+.index__em-list1 {
+	padding-left: 51px;
+}
+
+.index__em-list1 ul {
+	font-size: 18px;
+	list-style-type: none;
+}
+
+.index__em-list1 ul li::before {
+	content: "";
+	font-size: 18px;
+	padding-left: 30px;
+	background: url(img/CheckCircle.svg) no-repeat left center;
+}
+
+
+.pb29 {
+	padding-bottom: 29px;
+}
+
+.maw786 {
+	max-width: 786px;
+}
+
+.pt40 {
+	padding-top: 40px;
+}
+
+.pb30 {
+	padding-bottom: 30px;
+}
+
+.snoska {
+	font-weight: 400;
+	padding-left: 80px;
+	font-size: 18px;
+	padding-top: 49px;
+	line-height: 26px;
+	color: #A5A5A5;
+	padding-bottom: 126px;
+}
+
+.cat2 {
+	background-image: url(/img/catalog-page/cat2.png);
+}
+
+.cat3 {
+	background-image: url(/img/catalog-page/cat3.png);
+}
+
+.cat4 {
+	background-image: url(/img/catalog-page/cat4.png);
+}
+
+.cat5 {
+	background-image: url(/img/catalog-page/cat5.png);
+}
+
+.cat6 {
+	background-image: url(/img/catalog-page/cat6.png);
+}
+
+.cat7 {
+	background-image: url(/img/catalog-page/cat7.png);
+}
+
+.cat8 {
+	background-image: url(/img/catalog-page/cat8.png);
+}
+
+.cat9 {
+	background-image: url(/img/catalog-page/cat9.png);
+}
+
+.cat10 {
+	background-image: url(/img/catalog-page/cat10.png);
+}
+
+.cat11 {
+	background-image: url(/img/catalog-page/cat11.png);
+}
+
+.cat12 {
+	background-image: url(/img/catalog-page/cat12.png);
+}
+
+.cat13 {
+	background-image: url(/img/catalog-page/cat13.png);
+}
+
+.about__us {
+	padding-top: 40px;
+	display: flex;
+}
+
+.photo_personal {
+	max-width: 255px;
+	border-bottom: 2px solid #0569FF;
+	border-radius: 10px 10px 0px 0px;
+}
+
+.photo__block {
+
+	max-width: 255px;
+}
+
+.photo__block-txt1 {
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 26px;
+	text-align: center;
+	color: #282739;
+}
+
+.photo__block-txt2 {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	color: #5D6C7B;
+}
+.quote {
+    max-width: 40%;
+    font-weight: 500;
+    font-size: 24px;
+    color: #282739;
+    padding-left: 39px;
+}
+.about__us-txtblock {
+	padding-top: 44px;
+	font-weight: 500;
+font-size: 24px;
+line-height: 119%;
+color: #282739;
+}
+.photo__block-all {
+	padding-bottom: 89px;
+	padding-top: 89px;
+	display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.inner-h4 {
+	font-weight: 500;
+font-size: 24px;
+line-height: 119%;
+/* identical to box height, or 29px */
+
+text-transform: uppercase;
+
+/* Black */
+
+color: #282739;
+}
+.pt30 {
+	padding-top: 30px;
+}
+
+
+.about__us-gallery-element {
+	border-radius: 10px;
+	padding: 3px;
+}
