@@ -1178,7 +1178,7 @@ figure {
 }
 .question-block input {
     margin-bottom: 20px;
-    width: 263px;
+    width: 211px;
     height: 53px;
    padding: 0;
 }
@@ -1233,3 +1233,11 @@ border-radius: 5px;
 	font-weight: 400;
 font-size: 12px;
 }
+input[type=text]::placeholder {
+	font-size: 14px;
+padding-left: 10px;
+}
+input[type="text"] {
+	font-size: 14px;
+    padding-left: 28px;
+ }
